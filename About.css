@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: rgba(247, 77, 77, 0.769);
+}
+
+body {
+    font-family: monospace;
+    background-color: #222;
+}
+
+/* start header */
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.title {
+    color: var(--first-color);
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+
+.nav-bar ul a li {
+    display: inline-block;
+    padding-left: 100px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-bar ul a li:hover {
+    color: var(--first-color);
+    transition: 0.8s;
+}
+
+#icon-navbar {
+    color: var(--first-color);
+    font-size: larger;
+    margin-left: 100px;
+    padding-right: 60px;
+}
+
+#icon-navbar:hover {
+    color: #fff;
+    transition: 0.8s;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 25px;
+    color: var(--first-color);
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: hsl(0, 0%, 100%);
+    position: absolute; 
+    right: 42%;
+    top: 21%;
+}
+h4::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: hsl(0deg, 0%, 100%);
+    position: absolute; 
+    left: 42%;
+    top: 21%; 
+}
+
+p {
+    width: 35%;
+    float: left;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+img {
+    float: right;
+    margin-right: 270px;
+    margin-top: 120px;
+}
+
+.btn {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 650px;
+    padding: 7px;
+    color: #fff;
+    background-color: var(--first-color);
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--first-color);
+    transition: 0.9s;
+}
+
+/* end header */

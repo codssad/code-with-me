@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/contact.css">
+    <title>My Protofolio Web Site</title>
+</head>
+<body>
+    <!-- start header -->
+        <header>
+            <h2>My <span class="title">Protofolio</span> Website</h2>
+            <nav class="nav-bar">
+                <ul>
+                    <a href="/index-home.html"><li>Home</li></a>
+                    <a href="/about.html"><li>About Us</li></a>
+                    <a href="/services.html"><li>Services</li></a>
+                    <a href="/skills.html"><li>Skills</li></a>
+                    <a href="/contact.html"><li>Contact Us</li></a>
+                    <i id="icon-navbar" class="fa-solid fa-magnifying-glass"></i>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+    <!-- end header -->
+    <!-- start contact section -->
+
+    <h1 class="about">Contact Us</h1>
+
+
+    <div class="contact-content">
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="name" style="color: #222; font-size: 25px";>Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" style="color: #222; font-size: 25px";>Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message" style="color: #222; font-size: 25px;">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <div class="map">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.3936445904764!2d-9.730683284319752!3d29.69742448199501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3a2dfafbc3e4b%3A0x212b0b5b5b92f1e2!2sTiznit%2C%20Morocco!5e0!3m2!1sen!2sus!4v1614860057893!5m2!1sen!2sus" 
+                width="100%" 
+                height="600" 
+                style="border:0; font-size: 10vh;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- end contact section -->

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: rgba(247, 77, 77, 0.769);
+}
+
+body {
+    font-family: monospace;
+    background-color: #EEE;
+}
+
+/* start header */
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #222;
+}
+
+.title {
+    color: var(--first-color);
+    font-size: 40px;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+
+.nav-bar ul a li {
+    display: inline-block;
+    padding-left: 100px;
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+}
+
+.nav-bar ul a li:hover {
+    color: var(--first-color);
+    transition: 0.8s;
+}
+
+#icon-navbar {
+    color: var(--first-color);
+    font-size: larger;
+    margin-left: 100px;
+    padding-right: 60px;
+}
+
+#icon-navbar:hover {
+    color: #222;
+    transition: 0.8s;
+}
+
+/* end header */
+
+/* start services section */
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+h1::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: var(--first-color);
+    position: absolute; 
+    right: 38%;
+    top: 16%;
+}
+h1::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: var(--first-color);
+    position: absolute; 
+    left: 38%;
+    top: 16%; 
+}
+
+.my-services {
+    display: flex;
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+
+.front-end {
+    border: #222 solid;
+    border-radius: 20px;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.montage {
+    border: #222 solid;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.photochope {
+    border: #222 solid;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.voice-over {
+    border: #222 solid;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#services-icon {
+    font-size: 100px;
+    color: rgb(201, 201, 10);
+    padding-left: 35%;
+    padding-top: 30px;
+}
+
+#services-icon3 {
+    font-size: 100px;
+    padding-left: 40%;
+    padding-top: 30px;
+    margin-right: 40px;
+}
+
+#services-icon2 {
+    font-size: 100px;
+    padding-left: 33%;
+    padding-top: 30px;
+}
+
+
+#services-icon1 {
+    font-size: 100px;
+    padding-left: 35%;
+    padding-top: 30px;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-top: 40px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+/* end service section */
